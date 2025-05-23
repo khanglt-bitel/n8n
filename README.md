@@ -45,6 +45,15 @@ Access the editor at http://localhost:5678
 Need help? Our community forum is the place to get support and connect with other users:
 [community.n8n.io](https://community.n8n.io)
 
+### Oracle Database driver
+
+The Oracle DB node relies on the optional `oracledb` package. Install it in your
+setup if you plan to use this node:
+
+```bash
+pnpm add oracledb --workspace-root --filter n8n-nodes-base
+```
+
 ## License
 
 n8n is [fair-code](https://faircode.io) distributed under the [Sustainable Use License](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) and [n8n Enterprise License](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md).
