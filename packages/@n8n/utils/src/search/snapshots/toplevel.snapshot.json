@@ -7346,9 +7346,9 @@
 		"type": "node"
 	},
 	{
-		"uuid": "d4a72eb4-27fa-426c-8fe9-d3dbaf211512",
-		"key": "n8n-nodes-base.mySql",
-		"subcategory": "*",
+        "uuid": "d4a72eb4-27fa-426c-8fe9-d3dbaf211512",
+        "key": "n8n-nodes-base.mySql",
+        "subcategory": "*",
 		"properties": {
 			"displayName": "MySQL",
 			"defaults": {
@@ -7378,11 +7378,46 @@
 				}
 			}
 		},
-		"type": "node"
-	},
-	{
-		"uuid": "15e3de07-cc45-4641-b606-fd8b52835d74",
-		"key": "n8n-nodes-base.n8n",
+        "type": "node"
+        },
+        {
+                "uuid": "3b86c425-2694-4cb3-975a-c1c8af07f861",
+                "key": "n8n-nodes-base.oracleDb",
+                "subcategory": "*",
+                "properties": {
+                        "displayName": "Oracle DB",
+                        "defaults": {
+                                "name": "Oracle DB"
+                        },
+                        "description": "Execute queries on Oracle databases",
+                        "name": "n8n-nodes-base.oracleDb",
+                        "group": ["input"],
+                        "iconUrl": {
+                                "light": "icons/n8n-nodes-base/dist/nodes/OracleDb/oracle.svg",
+                                "dark": "icons/n8n-nodes-base/dist/nodes/OracleDb/oracle.dark.svg"
+                        },
+                        "outputs": ["main"],
+                        "codex": {
+                                "categories": ["Development", "Data & Storage"],
+                                "resources": {
+                                        "primaryDocumentation": [
+                                                {
+                                                        "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.oracledb/"
+                                                }
+                                        ],
+                                        "credentialDocumentation": [
+                                                {
+                                                        "url": "https://docs.n8n.io/integrations/builtin/credentials/oracle-db/"
+                                                }
+                                        ]
+                                }
+                        }
+                },
+                "type": "node"
+        },
+        {
+                "uuid": "15e3de07-cc45-4641-b606-fd8b52835d74",
+                "key": "n8n-nodes-base.n8n",
 		"subcategory": "Helpers",
 		"properties": {
 			"displayName": "n8n",

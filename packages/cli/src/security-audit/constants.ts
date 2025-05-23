@@ -24,10 +24,11 @@ export const SQL_NODE_TYPES_WITH_QUERY_PARAMS = new Set([
 ]);
 
 export const SQL_NODE_TYPES = new Set([
-	...SQL_NODE_TYPES_WITH_QUERY_PARAMS,
-	'n8n-nodes-base.mySql',
-	'n8n-nodes-base.microsoftSql',
-	'n8n-nodes-base.snowflake',
+        ...SQL_NODE_TYPES_WITH_QUERY_PARAMS,
+        'n8n-nodes-base.mySql',
+        'n8n-nodes-base.oracleDb',
+        'n8n-nodes-base.microsoftSql',
+        'n8n-nodes-base.snowflake',
 ]);
 
 export const WEBHOOK_NODE_TYPE = 'n8n-nodes-base.webhook';
